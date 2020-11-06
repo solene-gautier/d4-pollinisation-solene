@@ -1,0 +1,38 @@
+body {
+  background-color: white;
+}
+
+#titreetape {
+  font-style: bold;
+  font-size: 130px;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 100px;
+  margin-top: 40px;
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-direction: alternate;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+#texte5 {
+  margin-left: 70px;
+  padding-left: 90px;
+  padding-right: 400px;
+  margin-right: 400px;
+}
+
+#texte6 {
+  margin-left: 70px;
+  padding-left: 90px;
+  padding-right: 400px;
+  margin-right: 400px;
+  font-size: 20px;
+  font-family: helvetica;
+  font-weight: lighter;
+}
+
+#imageabeille2 {
+padding-left: 100px;
+
+}

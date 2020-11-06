@@ -1,0 +1,203 @@
+body {
+  background-color: #E1F154;
+}
+
+.next-link {
+  background: white;
+  color: black;
+  font-size: 1em;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10em;
+  z-index: 3;
+  position: relative;
+  margin-right: auto;
+}
+
+h1 {
+  font-style: bold;
+  font-size: 130px;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 100px;
+  margin-top: 40px;
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-direction: alternate;
+font-family: 'Alfa Slab One', cursive;
+
+}
+
+#arrow-animation {
+  size: 70px;
+  padding-top: 25px;
+  padding-left: 700px;
+}
+
+h2 {
+  font-size: 90px;
+  font-family: helvetica;
+  padding-left: 100px;
+  padding-right: 600px;
+  padding-top: 900px;
+  text-align: left;
+  margin-right: 140px;
+  margin-left: 60px;
+  position: absolute;
+  z-index: 2;
+}
+
+img {
+  padding-left: 900px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-right: 800px;
+  max-width: 50%;
+  height: inherit;
+  position: absolute;
+  z-index: 1;
+  background-position: left;
+  transition: opacity 0.5s ease-out;
+}
+
+#element1 {
+  padding-top: 780px;
+}
+
+#element3 {
+  font-size: 70px;
+  padding-right: 500px;
+  padding-left: 150px;
+  padding-top: 400px;
+  text-align: left;
+  animation: none;
+}
+
+#texte4 {
+  padding-left: 90px;
+  font-family: helvetica;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 30px: padding-top:100px;
+  z-index: 1;
+}
+
+.imageabeille {
+  padding-top: 40px;
+  padding-bottom: 400px;
+  padding-right: 400px;
+}
+
+#fleur {
+  padding-top: 1550px;
+  transform: translate(10px);
+  translate(10px);
+  transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
+  transform: skew(20deg);
+  transform: rotate(20deg);
+  padding-left: 700px;
+  padding-right: 50px;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+}
+
+h3 {
+  padding-right: 500px;
+  font-family: sans-serif;
+  left: 30px;
+  font-size: 20px;
+  margin-right: 50px;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+  float: left;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#video {
+  padding-left: 500px;
+}
+
+#texte1 {
+  font-size: 20px;
+  font-family: helvetica;
+  padding-left: 90px;
+  padding-right: 400px;
+  margin-right: 400px;
+  margin-left: 70px;
+  float: left;
+  margin-top: 90px;
+  padding-top: 790px;
+  font-weight: lighter;
+}
+
+#texte2 {
+  padding-top: 710px;
+  position: relative;
+  font-size: 20px;
+  font-family: helvetica;
+  padding-left: 90px;
+  padding-right: 400px;
+  margin-right: 400px;
+  margin-left: 70px;
+  margin-top: 50px;
+  font-weight: lighter;
+
+  .texte5 {
+    font-size: 50px;
+    float: left;
+    animation: none;
+    padding-left: 90px;
+  }
+
+  #texte6 {
+    font-weight: lighter;
+    padding-left: 90px;
+    padding-right: 100px;
+    float: left;
+    animation: none;
+    padding-right: 400px;
+  }
+
+
+.texte10 {
+font-size: 30px;
+
+}
